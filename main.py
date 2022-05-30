@@ -31,9 +31,6 @@ def get_messages(message):
         elif ms_text == 'Рандомная игра':
             random_game(message)
 
-        elif ms_text == "ДЗ":
-            dz(message)
-
     else:
         bot.send_message(chat_id, text="Мне жаль, я не понимаю вашу команду: " + ms_text)
         goto_menu(chat_id, "Главное меню")
