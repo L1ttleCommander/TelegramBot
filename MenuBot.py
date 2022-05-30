@@ -24,5 +24,5 @@ class Menu:
         return menu
 
 
-m_main = Menu("Главное меню", buttons=["Развлечения", "ДЗ", "Помощь"])
+m_main = Menu("Главное меню", buttons=["Развлечения", "Помощь"])
 m_fun = Menu("Развлечения", buttons=["Рандомная игра", "Выход"], parent=m_main)
